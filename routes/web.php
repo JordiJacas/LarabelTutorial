@@ -23,7 +23,7 @@ Route::get('logout', function () {
 	return view('Logout usuario');
 });
 
-Route::get('catalog', function (){
+Route::get('catalog/index', function (){
 	return view('catalog.index');
 });
 
